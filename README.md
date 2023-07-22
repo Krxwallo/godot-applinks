@@ -6,7 +6,7 @@ This is a simple Godot Android plugin that allows you to read the view intent UR
 
 1. Enable [Android Custom Build](https://docs.godotengine.org/en/stable/getting_started/workflow/export/android_custom_build.html) for your project
 2. Grab and extract the latest binary and plugin config from the [releases tab](https://github.com/timoschwarzer/godot-applinks/releases) into `res://android/plugins/`
-3. In your Anndroid export settings, make sure the AppLinks plugin is enabled
+3. In your Android export settings, make sure the AppLinks plugin is enabled
 4. Add a new Intent Filter to your `res://android/build/AndroidManifest.xml`, e.g.:
    ```xml
    <intent-filter android:autoVerify="true">
